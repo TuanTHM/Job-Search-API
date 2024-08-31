@@ -13,10 +13,8 @@
 					"script": {
 						"id": "cae77caa-dfb1-4f6e-8cad-c61cea25cb85",
 						"exec": [
-							"// TC-1 Đăng ký TC khi:\r",
 							"/*\r",
-							"    - Code = 201\r",
-							"    - All fields are inputted:\r",
+							"    - Đăng ký thành công (201) khi điền đủ các field:\r",
 							"        + name\r",
 							"        + email\r",
 							"        + account\r",
@@ -235,7 +233,6 @@
 							"let passwordSchema = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[#?!@$%^&*-])[A-Za-z\\d#?!@$%^&*-]{8,}$/;\r",
 							"/* code:\r",
 							"    var formTest = /value/;\r",
-							"    Trong đó:\r",
 							"    /\r",
 							"        ^: Bắt đầu của một chuỗi.\r",
 							"        (?=.*[a-z]): Đảm bảo chuỗi chứa ít nhất một ký tự chữ cái viết thường.\r",
